@@ -1,4 +1,5 @@
 # Read in the data
+setwd("C:/Users/kilsi/OneDrive/Coursera R/Exploratory Class")
 
 data = read.table("household_power_consumption.txt",sep=";",header=TRUE,na.strings="?")
 
